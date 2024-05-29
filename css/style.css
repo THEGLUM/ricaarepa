@@ -11,6 +11,7 @@ body {
 	font-family: 'Roboto Slab';
 	font-weight: normal;
 	font-style: normal;
+	letter-spacing: 0.05em;
 }
 .contacto__banner {
 	background-color: hsl(349, 74%, 63%);
@@ -121,4 +122,20 @@ body {
 }
 
 .contendor__objetivos__hero {
+	background-image: linear-gradient(to right, transparent 50%, #00c3c0 50%, #00c3c0 100%),
+		url(/public/img/objetivos.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	/* background-attachment: fixed; */
+
+	height: 40rem;
+}
+
+.toggle {
+	height: 1rem;
+	min-height: 1rem;
+	min-width: 1rem;
+	width: 1rem;
+	background-color: #ffc547;
+	border-radius: 100%;
 }
