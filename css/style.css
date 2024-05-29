@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url(/public/fonts/RobotoSlab-Regular.woff2);
+}
+
+.border {
+	border: 3px black solid;
+}
+
+body {
+	font-family: 'Roboto Slab';
+	font-weight: normal;
+	font-style: normal;
+}
+.contacto__banner {
+	background-color: hsl(349, 74%, 63%);
+}
+
+.contenedor__banner__hero {
+	min-height: 80vh;
+	background-image: linear-gradient(0deg, rgba(41, 41, 41, 0.493) 0%, rgba(31, 31, 34, 0.521) 100%),
+		url(/public/img/banner.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.contenedor__logo {
+	width: 50px;
+	height: 50px;
+}
+
+.contenedor__logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+}
+
+.navegacion__contenedor__links li a:hover {
+	text-decoration: underline;
+}
+
+.contendor__imagen {
+	height: 40rem;
+}
+
+.contenedor__vision__hero {
+	position: relative;
+	background-image: url(/public/img/hojas.svg);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: -30rem 0rem;
+}
+
+.contenedor__navagacion__hero {
+	border-bottom: 1px solid rgb(37, 37, 37);
+	background-color: #f43f5f;
+}
+
+.contenedor__mision__hero {
+	position: relative;
+	background-image: url(/public/img/hojas.svg);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: 70rem -60rem;
+}
+
+.bubble {
+	display: inline-block;
+	position: fixed;
+	margin: 1rem;
+	padding: 0.5rem;
+	border-radius: 50%;
+	width: fit-content;
+	background: #059445;
+	bottom: 0.5rem;
+	z-index: 300;
+	right: 0;
+	color: white;
+	cursor: pointer;
+}
+
+.list__politicas li {
+	margin-bottom: 3rem;
+	font-size: 1.4rem;
+}
+
+.contenedor__hero__politicas {
+	background-image: url(/public/img/fondo.webp);
+}
